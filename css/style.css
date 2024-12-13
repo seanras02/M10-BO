@@ -1,14 +1,26 @@
+
+
 header{
-    width: 100%;
-    background: rgb(6, 13, 107);
-    height: 100%;
-    color:white;
+    width: 100%; /* Brede header */
+    background: rgb(6, 13, 107); /* Donkerblauwe achtergrond */
+    height: 60px;
+    color: white;
     padding: 20px 0;
     font-size: 2em;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
 } 
-
 
 body{
     background-color: lightblue;
+}
+
+header:hover span {
+    color: yellow; /* Verander tekstkleur bij hover */
+    text-decoration: underline; 
+    cursor: pointer;
 }
