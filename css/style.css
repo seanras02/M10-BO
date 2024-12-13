@@ -1,9 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 header{
     width: 100%; /* Brede header */
     background: rgb(6, 13, 107); /* Donkerblauwe achtergrond */
-    height: 60px;
+    height: 25%;
     color: white;
     padding: 20px 0;
     font-size: 2em;
@@ -11,12 +16,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     
 } 
 
 body{
     background-color: lightblue;
+    height: 100vh;
 }
 
 header:hover span {
