@@ -1,0 +1,14 @@
+header{
+    width: 100%;
+    background: rgb(6, 13, 107);
+    height: 100%;
+    color:white;
+    padding: 20px 0;
+    font-size: 2em;
+    font-weight: bold;
+} 
+
+
+body{
+    background-color: lightblue;
+}
