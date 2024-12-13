@@ -12,11 +12,22 @@
         
     </header>
 
-    <section>
-        <game>
-            
-        </game>
+    <section id="game--container">
+        <div id="setup">
+            <input type="text" id="playername" placeholder="Enter your name" required/>
+            <select id="timeOptions">
+                <option value="60">60 Seconds</option>
+                <option value="120">2 Minutes</option>
+                <option value="300">5 Minutes</option>
+            </select>
+            <button id="startGame">Start Game</button>
+        </div>
     </section>
+
+    <div id="leaderboard">
+        <h1>leaderboard</h1>
+        <ul id="leaderboardList"></ul>
+    </div>
 </body>
 <footer class="footer">
 </footer>
