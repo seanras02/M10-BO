@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
     <title>Click the target</title>
 </head>
 <body>
     <header>
-        
+        <h1>Click The Target</h1>
     </header>
 
     <section id="game--container">
@@ -20,7 +23,10 @@
                 <option value="120">2 Minutes</option>
                 <option value="300">5 Minutes</option>
             </select>
-            <button id="startGame">Start Game</button>
+            <button id="startGame">Start</button>
+        </div>
+        <div class="game--screen">
+
         </div>
     </section>
 
@@ -28,6 +34,8 @@
         <h1>leaderboard</h1>
         <ul id="leaderboardList"></ul>
     </div>
+
+
 </body>
 <footer class="footer">
 </footer>

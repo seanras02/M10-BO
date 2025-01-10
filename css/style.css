@@ -2,15 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Roboto Condensed", serif;
 }
 
 
 header{
-    width: 100%; /* Brede header */
-    background: rgb(6, 13, 107); /* Donkerblauwe achtergrond */
-    height: 25%;
+    width: 100%;
+    background: rgb(6, 13, 107); 
+    height: 15%;
     color: white;
-    padding: 20px 0;
+    padding: 2rem 0;
     font-size: 2em;
     font-weight: bold;
     display: flex;
@@ -22,10 +24,80 @@ header{
 body{
     background-color: lightblue;
     height: 100vh;
+    width: 100vw;
 }
 
-header:hover span {
-    color: yellow; /* Verander tekstkleur bij hover */
-    text-decoration: underline; 
+header h1{
+    font-size: 2rem;
+}
+
+header:hover h1 {
+    color: yellow;
+}
+
+#setup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    font-size: 2rem;
+    height: 15%;
+}
+
+input{
+    padding: 1rem;
+    all: unset;
+    background: #ffff;
+    padding: 1rem;
+}
+
+select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: blue solid 0.1rem;
+    width: 15rem;
+    height: 5.5rem;
+}
+
+option{
+    font-size: 1.5rem;
+}
+
+.game--container{
+    height: 100%;
+}
+
+#startGame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    padding: 2rem;
+    background: rgb(52, 87, 112);
+    color: #ffff;
+    border: none;
     cursor: pointer;
+    box-shadow: 0.2rem 0.2rem 0.5rem black;
+}
+
+#startgame:hover{
+    
+}
+
+.game--screen{
+    background: black;
+    width: 80%;
+    height: 50%;
+}
+
+
+#leaderboard{
+
 }
