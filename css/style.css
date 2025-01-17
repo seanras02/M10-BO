@@ -24,7 +24,8 @@ header{
 body{
     background-color: lightblue;
     height: 100vh;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 header h1{
@@ -37,13 +38,13 @@ header:hover h1 {
 
 #setup{
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    padding: 3rem;
+    padding: 1rem;
     font-size: 2rem;
-    height: 15%;
+    width: 100%;
 }
 
 input{
@@ -51,6 +52,7 @@ input{
     all: unset;
     background: #ffff;
     padding: 1rem;
+    cursor: pointer;
 }
 
 select{
@@ -61,14 +63,19 @@ select{
     padding: 1rem;
     border: blue solid 0.1rem;
     width: 15rem;
-    height: 5.5rem;
+    cursor: pointer;
 }
 
 option{
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
-.game--container{
+#game--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100%;
 }
 
@@ -84,20 +91,30 @@ option{
     color: #ffff;
     border: none;
     cursor: pointer;
+    border-radius: 1rem;
     box-shadow: 0.2rem 0.2rem 0.5rem black;
 }
 
-#startgame:hover{
+#startGame:hover{
+    background: rgb(92, 182, 241);
+}
+
+#startgame:active{
+    background:rgb(21, 50, 70);
     
 }
 
 .game--screen{
-    background: black;
+    background: #ffff;
     width: 80%;
-    height: 50%;
+    height: 60%;
+}
+
+.game--screen{
+    display: flex;
+    justify-content: center;
 }
 
 
 #leaderboard{
-
 }
