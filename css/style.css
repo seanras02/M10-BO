@@ -29,10 +29,29 @@ body{
 
 header h1{
     font-size: 2rem;
+    cursor: pointer;
 }
 
-header:hover h1 {
-    color: yellow;
+header:hover{
+    color: orangered;
+    text-shadow: 0 0 25px orangered,
+                 0 0 25px orangered;
+    transition: scale(1.1);
+    
+}
+
+span{
+    color: aqua;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+span:hover{
+    color: rgb(25, 77, 234);
+    text-shadow: 0 0 25px rgb(0, 26, 255),
+                 0 0 25px rgb(0, 26, 255);
+    transition: scale(1.1);
+    
 }
 
 #setup{
@@ -64,6 +83,13 @@ select{
     height: 5.5rem;
 }
 
+#startGame:hover{
+    color: orangered;
+    text-shadow: 0 0 25px orangered,
+                 0 0 25px orangered;
+    transition: scale(1.1);
+}
+
 option{
     font-size: 1.5rem;
 }
@@ -84,12 +110,10 @@ option{
     color: #ffff;
     border: none;
     cursor: pointer;
+    transition: 0,3s ease;
     box-shadow: 0.2rem 0.2rem 0.5rem black;
 }
 
-#startgame:hover{
-    
-}
 
 .game--screen{
     background: black;
